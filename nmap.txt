@@ -1,0 +1,74 @@
+Starting Nmap 7.97 ( https://nmap.org ) at 2026-11-13 18:30 +0100
+NSE: Loaded 158 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 18:30
+Completed NSE at 18:30, 0.00s elapsed
+Initiating NSE at 18:30
+Completed NSE at 18:30, 0.00s elapsed
+Initiating NSE at 18:30
+Completed NSE at 18:30, 0.00s elapsed
+Initiating Parallel DNS resolution of 1 host. at 18:30
+Completed Parallel DNS resolution of 1 host. at 18:30, 0.50s elapsed
+Initiating SYN Stealth Scan at 18:30
+Scanning 10.234.141.72 [1000 ports]
+Discovered open port 139/tcp on 10.234.141.72
+Discovered open port 135/tcp on 10.234.141.72
+Discovered open port 445/tcp on 10.234.141.72
+Discovered open port 912/tcp on 10.234.141.72
+Discovered open port 902/tcp on 10.234.141.72
+Discovered open port 16992/tcp on 10.234.141.72
+Completed SYN Stealth Scan at 18:30, 0.16s elapsed (1000 total ports)
+Initiating Service scan at 18:30
+Scanning 6 services on 10.234.141.72
+Completed Service scan at 18:30, 11.16s elapsed (6 services on 1 host)
+Initiating OS detection (try #1) against 10.234.141.72
+NSE: Script scanning 10.234.141.72.
+Initiating NSE at 18:30
+Completed NSE at 18:30, 14.24s elapsed
+Initiating NSE at 18:30
+Completed NSE at 18:30, 0.29s elapsed
+Initiating NSE at 18:30
+Completed NSE at 18:30, 0.00s elapsed
+Nmap scan report for 10.234.141.72
+Host is up (0.00091s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT      STATE SERVICE         VERSION
+135/tcp   open  msrpc           Microsoft Windows RPC
+139/tcp   open  netbios-ssn     Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds?
+902/tcp   open  ssl/vmware-auth VMware Authentication Daemon 1.10 (Uses VNC, SOAP)
+912/tcp   open  vmware-auth     VMware Authentication Daemon 1.0 (Uses VNC, SOAP)
+16992/tcp open  http            Intel Active Management Technology User Notification Service httpd 11.8.90.3987
+|_http-server-header: Intel(R) Active Management Technology 11.8.90.3987
+| http-title: Intel&reg; Active Management Technology
+|_Requested resource was /logon.htm
+| http-methods: 
+|_  Supported Methods: GET HEAD POST
+Device type: general purpose
+Running: Microsoft Windows 10
+OS CPE: cpe:/o:microsoft:windows_10
+OS details: Microsoft Windows 10 1809 - 21H2
+Network Distance: 0 hops
+TCP Sequence Prediction: Difficulty=253 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows, cpe:/h:intel:active_management_technology:11.8.90.3987
+
+Host script results:
+| smb2-security-mode: 
+|   3.1.1: 
+|_    Message signing enabled and required
+| smb2-time: 
+|   date: 2026-11-13T17:30:41
+|_  start_date: N/A
+
+NSE: Script Post-scanning.
+Initiating NSE at 18:30
+Completed NSE at 18:30, 0.00s elapsed
+Initiating NSE at 18:30
+Completed NSE at 18:30, 0.00s elapsed
+Initiating NSE at 18:30
+Completed NSE at 18:30, 0.00s elapsed
+Read data files from: C:\Program Files (x86)\Nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 28.58 seconds
+           Raw packets sent: 1016 (45.418KB) | Rcvd: 2046 (86.992KB)
