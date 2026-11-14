@@ -1,0 +1,10 @@
+(clord㉿kali)-[~]
+└─$ dnsrecon -d networkwalks.com
+[*] std: Performing General Enumeration against: networkwalks.com...
+[-] DNSSEC is not configured for networkwalks.com
+[-] Exception "The DNS operation timed out." while resolving SOA record.
+[-] Error while resolving SOA while using 10.0.2.3 as nameserver.
+[*] 	 A networkwalks.com 192.232.216.135
+[*] Enumerating SRV Records
+[-] No SRV Records Found for networkwalks.com
+
