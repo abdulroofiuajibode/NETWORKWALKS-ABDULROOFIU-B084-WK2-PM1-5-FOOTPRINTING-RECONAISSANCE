@@ -114,7 +114,7 @@ Through this project, I developed practical knowledge and understanding of:
 
 The project report contains screenshots and practical evidence of the activities performed, including tool outputs and network discovery results.
 
-**Project Report:** [W2-PM-FINAL – Penetration Testing Report](./W2-PM-FINAL_Revised_Recommendations_Conclusion.docx)
+**Project Report:** [W2-PM-FINAL – Penetration Testing Report](https://github.com/abdulroofiuajibode/NETWORKWALKS-ABDULROOFIU-B084-WK2-PM1-5-FOOTPRINTING-RECONAISSANCE/blob/main/W2-PM-FINAL_Revised_Recommendations_Conclusion.docx)
 
 ## Disclaimer
 
